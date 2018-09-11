@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald');
+
+body {
+  background: #2E9CE6;
+  padding: 4em;
+  font-family: 'Oswald', 'Arial';
+  color: #fff;
+  height: 100vh;
+
+  header {
+    // border: solid #fff;
+    background: rgb(108, 207, 174);
+
+    nav {
+      padding: 3em 0 1em 0;
+
+      ul{
+        list-style-type: none;
+        margin: 0 0 2em 0;
+        // padding: 0 0 3em 0;
+
+        li {
+          display: inline;
+          margin-right: 30px;
+          a {
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+
+    #searchItems {
+      padding: 3em 0 0 2em;
+
+      input {
+        padding: 1em;
+        font-size: 1em;
+        border-radius: 15px 15px 15px 15px;
+      }
+      button {
+        margin-left: 1em;
+        padding: 1em;
+        font-size: 1em;
+        border-radius: 15px 15px 15px 15px;
+      }
+    }
+    #giphyCards {
+      padding: 3em 0 0 2em;
+    }
+  }
+}
